@@ -1,4 +1,4 @@
-package com.example.lab5;
+package mgarzon.createbest.productcatalog;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
