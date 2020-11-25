@@ -22,7 +22,6 @@ jobs:
           key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
       - run:
           name: Run UnitTest
-	 
           command: cd Lab8;./gradlew test
       - store_artifacts:
           path: app/build/outputs/apk/debug/
